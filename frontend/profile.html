@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ducks</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body> 
+   <nav class="navbar">
+        <div class="nav-left">
+            <img src="logoduck.png" alt="BookDucks logo" class="logo">
+        </div>
+
+        <div class="nav-center">
+            <a href="index.html">Hem</a>
+            <a href="books.html">Alla böcker</a>
+            <a href="about.html">Om oss</a>
+            
+        </div>
+
+        <div class="nav-right">
+            <a href="profile.html" id="profileLink" class="profile-icon-link">
+            <img src="icons/user.png" alt="Profil" class="profile-icon"></a>
+            <button id="logout" style="display:none;">Logga ut</button>
+            <span id="userDisplay"></span>
+        </div>
+    </nav>   
+
+    <div class="profile-wrapper">
+    <h1>Min profil</h1>
+    <h2>Att läsa-lista</h2>
+
+    <div class="sort-buttons">
+        <button id="sortTitle" class="sort-btn">Sortera efter titel</button>
+        <button id="sortAuthor" class="sort-btn">Sortera efter författare</button>
+    </div>
+
+    <div id="toRead"></div>
+</div>
+
+    <footer class="footer">
+        <p>© 2026 BookDucks — Alla rättigheter förbehållna</p>
+    </footer>
+</body>
+</html>

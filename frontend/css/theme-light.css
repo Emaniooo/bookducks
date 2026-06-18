@@ -1,0 +1,101 @@
+body {
+  background: #f3eee7 !important;
+  color: #4a3f35 !important;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #97764a87 !important;
+}
+.navbar a {
+  color: #3d332a !important;
+}
+.navbar a:hover {
+  color: #8b6f52 !important;
+}
+.navbar a.active::after {
+  background-color: #5c4b3b !important;
+}
+
+/* BUTTONS */
+button:not(.saveToRead):not(.remove),
+.nav-button,
+#logout,
+.sort-btn,
+button[type="submit"] {
+  background: #8b6f52 !important;
+  color: white !important;
+  border: none !important;
+  padding: 0.7rem 1rem !important;
+  border-radius: 6px !important;
+}
+button:not(.saveToRead):not(.remove):hover,
+.nav-button:hover,
+#logout:hover,
+.sort-btn:hover,
+button[type="submit"]:hover {
+  background: #6f563f !important;
+}
+
+/* BOOK CARDS */
+.book {
+  background: #fffaf3 !important;
+  border: 1px solid #e6dccf !important;
+}
+.book h3 {
+  color: #5a4636 !important;
+}
+.book p {
+  color: #6b563f !important;
+}
+
+/* FORMS */
+form {
+  background: #fffaf3 !important;
+  border: 1px solid #e6dccf !important;
+}
+form h1 {
+  color: #5a4636 !important;
+}
+input {
+  background: #fdf9f3 !important;
+  border: 1px solid #cbbba4 !important;
+}
+input:focus {
+  border-color: #8b6f52 !important;
+}
+
+/* HERO */
+.hero-content {
+  background: rgba(255, 250, 243, 0.75) !important;
+}
+.hero h1 {
+  color: #5a4636 !important;
+}
+.hero p {
+  color: #6b563f !important;
+}
+.hero-btn {
+  background: #8b6f52 !important;
+}
+.hero-btn:hover {
+  background: #6f563f !important;
+}
+
+/* ABOUT / WRAPPERS */
+.about,
+.books-wrapper,
+.profile-wrapper {
+  background: #fffaf3 !important;
+  color: #5a4636 !important;
+}
+.about h1,
+.books-wrapper h1,
+.profile-wrapper h1 {
+  color: #4a3a2c !important;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #97764a87 !important;
+}
